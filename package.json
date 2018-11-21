@@ -1,7 +1,17 @@
 {
   "name": "userentity",
-  "version": "0.1.0",
-  "private": true,
+  "description": "React/Firebase implementation of user tracking",
+  "version": "0.0.2",
+  "homepage": "https://listingslab-userentity.firebaseapp.com",
+  "author": {
+    "name": "listingslab",
+    "email": "listingslab@gmail.com"
+  },
+  "license": "OSL-3.0",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/listingslab/userentity"
+  },
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -11,7 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "yarn build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +31,12 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
+  ],
+  "keywords": [
+    "JavaScript", "userentity",
+    "React", "Redux",
+    "Firebase", "API",
+    "PWA", "e2e",
+    "cucumber"
   ]
 }
