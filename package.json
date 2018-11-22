@@ -1,7 +1,7 @@
 {
   "name": "userentity",
   "description": "React/Firebase implementation of user tracking",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://listingslab-userentity.firebaseapp.com",
   "author": {
     "name": "listingslab",
