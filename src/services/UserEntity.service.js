@@ -1,14 +1,31 @@
-import {shape} from './shape'; 
+// import Fingerprint from 'fingerprintjs2';
+// import {shape} from './shape'; 
+
+//https://geoiplookup.io/api
 
 class UserEntityService {
 
     constructor(){
-        this.userentity = shape;
+        // return new Promise( ( resolve, reject ) => {
+        //     console.log("resolving 1");
+        //     resolve( {ksahd:123} );
+        // })
+        setTimeout(this.returnUserEntity, 1000);
     }
 
-    createUserEntity (){
-        return this.userentity;
+    getFingerPrint = (num) => {        
     }
+
+    getUserAgent = () => {
+    }
+
+    getGeoIP = () => {
+    }
+
+    returnUserEntity = () => {
+        return {dasuhd: 123}
+    }
+
 }
 
 export default UserEntityService;
